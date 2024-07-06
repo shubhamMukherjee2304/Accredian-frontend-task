@@ -17,20 +17,18 @@ body {
   
  
   
-  /* .carousel .control-arrow:hover {
-    background: rgba(0, 0, 0, 0.8);
-  } */
+  
   .carousel .control-arrow::before {
-    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
-    border-radius: 50%; /* Circular shape */
+    background: rgba(0, 0, 0, 0.5); 
+    border-radius: 50%; 
     width: 40px;
     height: 40px;
     display: flex;
     align-items: center;
-    justify-content: center; /* Arrow color */
-  } */
+    justify-content: center; 
+  } 
   
-  /* Positioning the arrows */
+  
   .carousel .control-prev.control-arrow {
     left: 15px;
     top:30px;
@@ -40,16 +38,7 @@ body {
     right: 15px;
     top:30px;
   }
-  .carousel .control-arrow {
-    /* background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
-    /* border-radius: 50%; /* Circular shape */
-    /* width: 40px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: background 0.3s ease; */ 
-  }
+  
   
   .cardsh {
     background-color: #fff;
